@@ -1,0 +1,22 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 046eef48-6d3f-4288-a12a-fc20b7e12e30)
+
+  (paper "A4")
+
+  (title_block
+    (title "Retro Display Module")
+    (date "2024-07-30")
+    (rev "V0.01")
+    (comment 1 "Author: Si Teng Wu")
+    (comment 2 "EEE4022S Final Year Project")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
