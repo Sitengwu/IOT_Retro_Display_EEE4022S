@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Si Teng Wu\OneDrive - University of Cape Town\2024\EEE4022S\IOT_Retro_Display_EEE4022S\KiCad\USB PD\USB PD.kicad_sch</source>
+    <date>07/09/2024 19:39:15</date>
+    <tool>Eeschema (7.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB PD.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04e8d848-2ad4-44fe-b8f2-694bb234f65e</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C1779</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1779"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a203a643-972b-416a-8f51-5dd203cfcc25</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C1779</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1779"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06deac3d-bc6b-4a17-bf4d-adbb02012ae6</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C19702</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C19702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02aaccdd-e588-4d57-8506-1a265dd663dc</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1710</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1710"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d72613bc-e9fa-4845-b178-c2bb39fd9544</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>220uF</value>
+      <footprint>Library:CAP-SMD_L3.5-W2.8</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_KEMET-T520B157M006ATE035_C212682.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C212682</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="LCSC" value="C212682"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>800dcdbe-fd59-4602-af69-583abdccfd97</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SS34</value>
+      <footprint>Library:SMA_L4.3-W2.6-LS5.2-RD</footprint>
+      <fields>
+        <field name="LCSC">C8678</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C8678"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3de1a26-484f-4d96-9c83-f9006b3665ed</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>ESP32 Jumpers</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Pin" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f89fc13-5733-41aa-9983-3cf70c7ae3ca</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fdbdcc0-d0d9-410e-9c5a-2fa94f9c588a</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>VCC</value>
+      <footprint>Library:CONN-SMD_YZF0002-38080-02</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2210191430_Xinyangze-YZF0002-38080-02_C5203987.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5203987</field>
+        <field name="LCSC Part #">C5203987</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC Part #" value="C5203987"/>
+      <property name="LCSC" value="C5203987"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7976e713-181f-4b28-b38c-3a1d30d65d88</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>TX</value>
+      <footprint>Library:CONN-SMD_YZF0002-38080-02</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2210191430_Xinyangze-YZF0002-38080-02_C5203987.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5203987</field>
+        <field name="LCSC Part #">C5203987</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC Part #" value="C5203987"/>
+      <property name="LCSC" value="C5203987"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa82d547-8eb9-40c5-8474-b2c8daf50295</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>RX</value>
+      <footprint>Library:CONN-SMD_YZF0002-38080-02</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2210191430_Xinyangze-YZF0002-38080-02_C5203987.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5203987</field>
+        <field name="LCSC Part #">C5203987</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC Part #" value="C5203987"/>
+      <property name="LCSC" value="C5203987"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9f94636-91b3-4d2f-ba34-70a808c3f0db</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>CFG</value>
+      <footprint>Library:CONN-SMD_YZF0002-38080-02</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2210191430_Xinyangze-YZF0002-38080-02_C5203987.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5203987</field>
+        <field name="LCSC Part #">C5203987</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC Part #" value="C5203987"/>
+      <property name="LCSC" value="C5203987"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c807c7c8-d55f-4c15-84dd-aa95bce78989</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>SEL</value>
+      <footprint>Library:CONN-SMD_YZF0002-38080-02</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2210191430_Xinyangze-YZF0002-38080-02_C5203987.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5203987</field>
+        <field name="LCSC Part #">C5203987</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC Part #" value="C5203987"/>
+      <property name="LCSC" value="C5203987"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cecb8b7c-05e8-4f8b-be0e-4327e7f13364</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>GND</value>
+      <footprint>Library:CONN-SMD_YZF0002-38080-02</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2210191430_Xinyangze-YZF0002-38080-02_C5203987.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5203987</field>
+        <field name="LCSC Part #">C5203987</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC Part #" value="C5203987"/>
+      <property name="LCSC" value="C5203987"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e62c4b6-25a2-4906-ba03-6a15a51aca28</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eda39347-d699-457d-a39b-14654441075b</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f47088dc-67b2-46b9-8f14-3b9b1814c6ba</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fef75d6-2e4e-42cb-9ac3-a3fee15f2566</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>274d210b-c1e8-4336-a2d6-b7a62e6ae86b</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b0b33f5-7fb6-4281-b5da-c3cb8e74daf0</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>22uF</value>
+      <footprint>Library:IND-SMD_L7.3-W6.6_MHCI06030</footprint>
+      <fields>
+        <field name="LCSC">C128694</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C128694"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d3a939d-4ec1-4f77-a8ce-54d7dc2eaeab</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25803</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1d786ea-7f58-4201-8082-0a2c1edc26be</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C23186"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d133968f-c155-409e-8221-7becbccd293e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C23186"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e4a7df0-d50e-4a14-b488-74e1f766cba2</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>12k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C22790</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C22790"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5541e904-31c3-4ad0-84e6-c915c0694451</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>3.9k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23018</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="LCSC" value="C23018"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6aa987b-2522-4983-9c4c-466bcf5e894a</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a64ea24-2544-4e83-8342-591630d895ff</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>781a1ae1-de6c-43fa-9950-96e1bd8c0194</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17a082f5-a853-45de-a54e-2bffa4383b16</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f837f4bd-6761-4f47-b8fe-eb6383ce1767</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AO3400A</value>
+      <footprint>Library:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="EEE4022S" part="AO3400A" description=""/>
+      <property name="LCSC" value="C20917"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_keywords" value="C20917"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8eb25d69-f6ff-4c85-b241-bf13376bac83</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>IP2721</value>
+      <footprint>Library:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2006111335_INJOINIC-IP2721_C603176.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C603176</field>
+      </fields>
+      <libsource lib="EEE4022S" part="IP2721" description=""/>
+      <property name="LCSC" value="C603176"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_keywords" value="C603176"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab028531-0c38-4777-a48c-25439adae0b1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TPS5430DDAR</value>
+      <footprint>Library:ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_1811081920_Texas-Instruments-TPS5430DDAR_C9864.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C9864</field>
+      </fields>
+      <libsource lib="EEE4022S" part="TPS5430DDAR" description=""/>
+      <property name="LCSC" value="C9864"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_keywords" value="C9864"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c04e3cc8-4b39-41bc-bf0f-870c55545282</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TYPE-C_6P</value>
+      <footprint>Library:TYPE-C-SMD_TYPE-C-6P</footprint>
+      <datasheet>https://item.szlcsc.com/458819.html</datasheet>
+      <fields>
+        <field name="LCSC">C456012</field>
+      </fields>
+      <libsource lib="EEE4022S" part="TYPE-C_6P" description=""/>
+      <property name="LCSC" value="C456012"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB PD.kicad_sch"/>
+      <property name="ki_keywords" value="C456012"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6b3b515-c397-48ea-84db-5eabaf28a602</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Pin">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEE4022S" part="AO3400A">
+      <docs>https://www.diodes.com/assets/Package-Files/SOT23.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint">footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Package-Files/SOT23.pdf</field>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="unspecified"/>
+        <pin num="2" name="S" type="unspecified"/>
+        <pin num="3" name="D" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEE4022S" part="IP2721">
+      <docs>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2006111335_INJOINIC-IP2721_C603176.pdf</docs>
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">IP2721</field>
+        <field name="Footprint">Library:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2006111335_INJOINIC-IP2721_C603176.pdf</field>
+        <field name="LCSC">C603176</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUSG" type="unspecified"/>
+        <pin num="2" name="VIN" type="unspecified"/>
+        <pin num="3" name="NC" type="unspecified"/>
+        <pin num="4" name="NC" type="unspecified"/>
+        <pin num="5" name="GND" type="unspecified"/>
+        <pin num="6" name="TST1" type="unspecified"/>
+        <pin num="7" name="TST2" type="unspecified"/>
+        <pin num="8" name="TST3" type="unspecified"/>
+        <pin num="9" name="NC" type="unspecified"/>
+        <pin num="10" name="NC" type="unspecified"/>
+        <pin num="11" name="SEL" type="unspecified"/>
+        <pin num="12" name="CC2" type="unspecified"/>
+        <pin num="13" name="CC1" type="unspecified"/>
+        <pin num="14" name="NC" type="unspecified"/>
+        <pin num="15" name="NC" type="unspecified"/>
+        <pin num="16" name="VBUS" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEE4022S" part="TPS5430DDAR">
+      <docs>https://cn.bing.com/search?q=datasheet： CS5082E</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS5430DDAR</field>
+        <field name="Footprint">footprint:ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP</field>
+        <field name="Datasheet">https://cn.bing.com/search?q=datasheet： CS5082E</field>
+        <field name="LCSC">C9864</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT" type="unspecified"/>
+        <pin num="2" name="NC" type="unspecified"/>
+        <pin num="3" name="NC" type="unspecified"/>
+        <pin num="4" name="VSENSE" type="unspecified"/>
+        <pin num="5" name="ENA" type="unspecified"/>
+        <pin num="6" name="GND" type="unspecified"/>
+        <pin num="7" name="VIN" type="unspecified"/>
+        <pin num="8" name="PH" type="unspecified"/>
+        <pin num="9" name="PowerPAD" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEE4022S" part="TYPE-C_6P">
+      <docs>https://item.szlcsc.com/458819.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TYPE-C_6P</field>
+        <field name="Footprint">footprint:TYPE-C-SMD_TYPE-C-6P</field>
+        <field name="Datasheet">https://item.szlcsc.com/458819.html</field>
+        <field name="LCSC">C456012</field>
+      </fields>
+      <pins>
+        <pin num="7" name="EH" type="unspecified"/>
+        <pin num="A5" name="CC1" type="unspecified"/>
+        <pin num="A9" name="VBUS" type="unspecified"/>
+        <pin num="A12" name="GND" type="unspecified"/>
+        <pin num="B5" name="CC2" type="unspecified"/>
+        <pin num="B9" name="VBUS" type="unspecified"/>
+        <pin num="B12" name="GND" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="EEE4022S">
+      <uri>C:/Users/Si Teng Wu/OneDrive - University of Cape Town/2024/EEE4022S/IOT_Retro_Display_EEE4022S/KiCad/EEE4022S.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5V OUT">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/USB_C_VIN">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U4" pin="A9" pinfunction="VBUS" pintype="unspecified"/>
+      <node ref="U4" pin="B9" pinfunction="VBUS" pintype="unspecified"/>
+    </net>
+    <net code="3" name="/USB_C_VOUT">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="U2" pin="16" pinfunction="VBUS" pintype="unspecified"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U3" pin="6" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U3" pin="9" pinfunction="PowerPAD" pintype="unspecified"/>
+      <node ref="U4" pin="7" pinfunction="EH" pintype="unspecified"/>
+      <node ref="U4" pin="A12" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U4" pin="B12" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="5" name="Net-(D1-K)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="PH" pintype="unspecified"/>
+    </net>
+    <net code="6" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(J1-Pin_3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(J1-Pin_4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J2-Pin_2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J9-Pin_2)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U2" pin="2" pinfunction="VIN" pintype="unspecified"/>
+    </net>
+    <net code="11" name="Net-(J10-Pin_2)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="VIN" pintype="unspecified"/>
+    </net>
+    <net code="12" name="Net-(J11-Pin_1)">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="ENA" pintype="unspecified"/>
+    </net>
+    <net code="13" name="Net-(J12-Pin_1)">
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J12-Pin_2)">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="SEL" pintype="unspecified"/>
+    </net>
+    <net code="15" name="Net-(J13-Pin_1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(U1-G)">
+      <node ref="U1" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U2" pin="1" pinfunction="VBUSG" pintype="unspecified"/>
+    </net>
+    <net code="17" name="Net-(U2-CC1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="CC1" pintype="unspecified"/>
+      <node ref="U4" pin="A5" pinfunction="CC1" pintype="unspecified"/>
+    </net>
+    <net code="18" name="Net-(U2-CC2)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="CC2" pintype="unspecified"/>
+      <node ref="U4" pin="B5" pinfunction="CC2" pintype="unspecified"/>
+    </net>
+    <net code="19" name="Net-(U3-BOOT)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="BOOT" pintype="unspecified"/>
+    </net>
+    <net code="20" name="Net-(U3-VSENSE)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="VSENSE" pintype="unspecified"/>
+    </net>
+    <net code="21" name="unconnected-(J1-Pin_5-Pad5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(J7-Pin_1-Pad1)">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U2-NC-Pad3)">
+      <node ref="U2" pin="3" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U2-NC-Pad4)">
+      <node ref="U2" pin="4" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U2-NC-Pad9)">
+      <node ref="U2" pin="9" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U2-NC-Pad10)">
+      <node ref="U2" pin="10" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U2-NC-Pad14)">
+      <node ref="U2" pin="14" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U2-NC-Pad15)">
+      <node ref="U2" pin="15" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U2-TST1-Pad6)">
+      <node ref="U2" pin="6" pinfunction="TST1" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U2-TST2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="TST2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U2-TST3-Pad8)">
+      <node ref="U2" pin="8" pinfunction="TST3" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U3-NC-Pad2)">
+      <node ref="U3" pin="2" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U3-NC-Pad3)">
+      <node ref="U3" pin="3" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>

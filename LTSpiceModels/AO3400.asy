@@ -1,0 +1,29 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 16 0 16 48
+LINE Normal -16 32 16 32
+LINE Normal 8 0 16 0
+LINE Normal -16 0 8 -4
+LINE Normal -16 0 8 4
+LINE Normal 8 -4 8 4
+LINE Normal -16 -40 -16 -24
+LINE Normal -16 -8 -16 8
+LINE Normal -16 24 -16 40
+LINE Normal -32 32 -24 32
+LINE Normal -24 -32 -24 32
+LINE Normal 16 -32 -16 -32
+LINE Normal 16 -48 16 -32
+WINDOW 0 -30 -72 Left 2
+WINDOW 3 1 64 Top 2
+SYMATTR Value AO3400
+SYMATTR Prefix X
+SYMATTR ModelFile AO3400.sub
+PIN 16 -48 LEFT 8
+PINATTR PinName 4
+PINATTR SpiceOrder 1
+PIN -32 32 RIGHT 8
+PINATTR PinName 1
+PINATTR SpiceOrder 2
+PIN 16 48 LEFT 8
+PINATTR PinName 2
+PINATTR SpiceOrder 3
