@@ -55,7 +55,7 @@
   (pad "2" smd rect (at 3.299975 -1.850216) (size 1.7 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3d0addd8-4c0f-4723-a766-3c252b7e899d))
   (pad "3" smd rect (at -3.299975 1.850216) (size 1.7 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6f55ba03-4479-43f6-914c-bb1d918a3d7f))
   (pad "4" smd rect (at 3.299975 1.850191) (size 1.7 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ca260b69-3d4d-49c8-a6b9-fcc8a807b5ef))
-  (model "${JLCPCB}/SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2.step"
+  (model "C:/Users/Si Teng Wu/OneDrive - University of Cape Town/2024/EEE4022S/IOT_Retro_Display_EEE4022S/KiCad/JLC2KiCad_lib/footprint/packages3d/SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2.step"
     (offset (xyz 0 -0.0000253999996185 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
