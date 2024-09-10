@@ -1,4 +1,4 @@
-21479178395007716
+21484356168491188
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60410,6 +60410,13 @@ SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR footprint C9634
 3
 3
 Library
+Dual LM358
+SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint
+SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint C7950
+0
+8
+8
+Library
 ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP
 ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP footprint
 ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP footprint C9864
@@ -60437,6 +60444,13 @@ LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL_1 footprint C529329
 0
 48
 48
+Library
+MountingHole_3.2mm_M3_Pad_TopBottom
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+3
+1
 Library
 SMA_L4.3-W2.6-LS5.2-RD
 SMA_L4.3-W2.6-LS5.2-RD footprint
@@ -60490,6 +60504,13 @@ Library
 TestPoint_2mmx2mm
 
 
+0
+1
+1
+Library
+TestPoint_THTPad_2.0x2.0mm_Drill1.0mm
+THT rectangular pad as test Point, square 2.0mm_Drill1.0mm  side length, hole diameter 1.0mm
+test point THT pad rectangle square
 0
 1
 1

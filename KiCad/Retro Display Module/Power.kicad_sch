@@ -842,7 +842,7 @@
           (reference "#PWR016") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "USB PD"
@@ -941,7 +941,7 @@
     (property "Value" "TestPoint" (at 203.327 83.0653 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm" (at 207.01 85.09 0)
+    (property "Footprint" "Library:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" (at 207.01 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 207.01 85.09 0)
@@ -1105,7 +1105,7 @@
           (reference "#PWR014") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "USB PD"
@@ -1285,7 +1285,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "USB PD"
@@ -1323,7 +1323,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "USB PD"
@@ -1348,7 +1348,7 @@
     (property "Value" "TestPoint" (at 148.717 104.8947 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm" (at 152.4 102.87 0)
+    (property "Footprint" "Library:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" (at 152.4 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 102.87 0)
@@ -1431,7 +1431,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "USB PD"
@@ -1469,7 +1469,7 @@
           (reference "#PWR017") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1484,7 +1484,7 @@
     (property "Value" "TestPoint" (at 83.947 90.6853 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm" (at 87.63 92.71 0)
+    (property "Footprint" "Library:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" (at 87.63 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 87.63 92.71 0)
@@ -1564,7 +1564,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "USB PD"
