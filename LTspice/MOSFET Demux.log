@@ -1,28 +1,27 @@
 Circuit: * C:\Users\Si Teng Wu\OneDrive - University of Cape Town\2024\EEE4022S\IOT_Retro_Display_EEE4022S\LTspice\MOSFET Demux.asc
 
-Limiting rise time of source v3 to 5e-006
-Limiting fall time of source v3 to 5e-006
-WARNING: Node NC_02 is floating.
-
-WARNING: Less than two connections to node NC_01.  This node is used by V1.
-WARNING: Less than two connections to node NC_02.  This node is used by V1.
-Instance "m:u1:2": Length shorter than recommended for a level 3 MOSFET.
+Limiting rise time of source v2 to 5e-006
+Limiting fall time of source v2 to 5e-006
+Limiting rise time of source v1 to 5e-006
+Limiting fall time of source v1 to 5e-006
+WARNING: Less than two connections to node RX1.  This node is used by M1.
+WARNING: Less than two connections to node TX2.  This node is used by M3.
 Direct Newton iteration for .op point succeeded.
 
-Date: Mon Sep 09 21:33:56 2024
-Total elapsed time: 0.108 seconds.
+Date: Wed Sep 11 01:03:51 2024
+Total elapsed time: 0.093 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 4918
-traniter = 4913
-tranpoints = 2358
-accept = 2009
-rejected = 349
-matrix size = 11
-fillins = 0
+totiter = 8251
+traniter = 8216
+tranpoints = 2728
+accept = 2320
+rejected = 408
+matrix size = 26
+fillins = 8
 solver = Normal
-Matrix Compiler1: 522 bytes object code size  0.2/0.1/[0.1]
-Matrix Compiler2: 851 bytes object code size  0.1/0.2/[0.1]
+Matrix Compiler1: 1.92 KB object code size  0.3/0.2/[0.2]
+Matrix Compiler2: 2.24 KB object code size  0.2/0.4/[0.2]
 
