@@ -814,7 +814,7 @@
           (reference "U6") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "U5") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -842,7 +842,7 @@
           (reference "#PWR016") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "USB PD"
@@ -884,7 +884,7 @@
           (reference "C5") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "USB PD"
@@ -921,7 +921,7 @@
           (reference "R7") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "R11") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "USB PD"
@@ -991,7 +991,7 @@
           (reference "R6") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "R10") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "USB PD"
@@ -1028,7 +1028,7 @@
           (reference "C7") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "USB PD"
@@ -1072,7 +1072,7 @@
           (reference "U5") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "U4") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
       (project "USB PD"
@@ -1105,7 +1105,7 @@
           (reference "#PWR014") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "USB PD"
@@ -1181,7 +1181,7 @@
           (reference "C8") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "C13") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "USB PD"
@@ -1285,7 +1285,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "USB PD"
@@ -1323,7 +1323,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "USB PD"
@@ -1398,7 +1398,7 @@
           (reference "C4") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "C11") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "USB PD"
@@ -1431,7 +1431,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "USB PD"
@@ -1469,7 +1469,7 @@
           (reference "#PWR017") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1564,7 +1564,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "USB PD"
@@ -1606,7 +1606,7 @@
           (reference "C9") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "C12") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
       (project "USB PD"
@@ -1643,7 +1643,7 @@
           (reference "C6") (unit 1)
         )
         (path "/046eef48-6d3f-4288-a12a-fc20b7e12e30/b83b8eb2-0716-4cf7-9ac5-6883d8975061"
-          (reference "C9") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "USB PD"

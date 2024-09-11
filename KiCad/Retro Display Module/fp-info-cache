@@ -1,4 +1,4 @@
-21484356168491188
+21486082183392266
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60444,6 +60444,13 @@ LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL_1 footprint C529329
 0
 48
 48
+Library
+MJD44 NPN
+DPAK-3_L6.6-W6.1-P2.28-LS9.9-BR footprint
+DPAK-3_L6.6-W6.1-P2.28-LS9.9-BR footprint C551528
+0
+3
+3
 Library
 MountingHole_3.2mm_M3_Pad_TopBottom
 Mounting Hole 3.2mm, M3

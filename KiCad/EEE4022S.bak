@@ -450,7 +450,7 @@
     (property "Value" "LM358DR2G" (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprint:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL" (at 0 -10.16 0)
+    (property "Footprint" "Library:Dual LM358" (at 0 -10.16 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/417287.html" (at -2.286 0.127 0)
