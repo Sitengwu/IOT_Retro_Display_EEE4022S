@@ -1,4 +1,4 @@
-21486082183392266
+21489534238639833
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60403,6 +60403,13 @@ CRYSTAL-SMD_L11.5-W4.8-LS12.7 footprint C12674
 2
 2
 Library
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Library
 D882
 SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR footprint
 SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR footprint C9634
@@ -60458,6 +60465,13 @@ mounting hole 3.2mm m3
 0
 3
 1
+Library
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
 Library
 SMA_L4.3-W2.6-LS5.2-RD
 SMA_L4.3-W2.6-LS5.2-RD footprint
