@@ -8,8 +8,8 @@ WARNING: Less than two connections to node RX1.  This node is used by M1.
 WARNING: Less than two connections to node TX2.  This node is used by M3.
 Direct Newton iteration for .op point succeeded.
 
-Date: Wed Sep 11 01:03:51 2024
-Total elapsed time: 0.093 seconds.
+Date: Mon Sep 30 17:32:25 2024
+Total elapsed time: 0.085 seconds.
 
 tnom = 27
 temp = 27
@@ -22,6 +22,6 @@ rejected = 408
 matrix size = 26
 fillins = 8
 solver = Normal
-Matrix Compiler1: 1.92 KB object code size  0.3/0.2/[0.2]
-Matrix Compiler2: 2.24 KB object code size  0.2/0.4/[0.2]
+Matrix Compiler1: 1.94 KB object code size  0.4/0.2/[0.1]
+Matrix Compiler2: 2.24 KB object code size  0.2/0.4/[0.1]
 

@@ -1,0 +1,8 @@
+Please select under PCB specifications: 
+
+Different Designs:	2
+Delivery Format:	Panel by Customer
+
+Under PCB Assembly:
+
+Tooling Holes: 		Added by Customer

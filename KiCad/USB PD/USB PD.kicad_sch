@@ -1554,7 +1554,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 63.5 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 00842eaa-9968-4d8b-849d-7ed4a04cd024)
     (property "Reference" "H1" (at 62.23 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1760,7 +1760,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 162.56 105.41 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 0fef75d6-2e4e-42cb-9ac3-a3fee15f2566)
     (property "Reference" "J18" (at 166.37 107.95 0)
       (effects (font (size 1.27 1.27)))
@@ -1791,7 +1791,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 196.85 17.78 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17a082f5-a853-45de-a54e-2bffa4383b16)
     (property "Reference" "TP3" (at 195.453 13.8343 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1854,7 +1854,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 88.9 57.15 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 1fdbdcc0-d0d9-410e-9c5a-2fa94f9c588a)
     (property "Reference" "J18" (at 91.44 53.34 90)
       (effects (font (size 1.27 1.27)))
@@ -1885,7 +1885,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 181.61 69.85 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 274d210b-c1e8-4336-a2d6-b7a62e6ae86b)
     (property "Reference" "J12" (at 181.61 71.5217 90)
       (effects (font (size 1.27 1.27)))
@@ -2056,7 +2056,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 82.55 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 56ded492-0528-426a-b84c-d3b4531de698)
     (property "Reference" "H1" (at 81.28 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2121,7 +2121,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 137.16 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 781a1ae1-de6c-43fa-9950-96e1bd8c0194)
     (property "Reference" "TP6" (at 138.557 92.5743 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2187,7 +2187,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 132.08 43.18 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a64ea24-2544-4e83-8342-591630d895ff)
     (property "Reference" "TP1" (at 130.683 39.2343 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2357,7 +2357,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 224.79 86.36 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 8b0b33f5-7fb6-4281-b5da-c3cb8e74daf0)
     (property "Reference" "J18" (at 227.33 82.55 0)
       (effects (font (size 1.27 1.27)))
@@ -2452,7 +2452,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 52.07 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 8f89fc13-5733-41aa-9983-3cf70c7ae3ca)
     (property "Reference" "J8" (at 52.07 57.15 0)
       (effects (font (size 1.27 1.27)))
@@ -2854,7 +2854,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 76.2 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid c286b1b4-31b7-4934-9915-40a909692467)
     (property "Reference" "H1" (at 74.93 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3170,7 +3170,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 69.85 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid e7053934-e380-4026-9f91-83ab3ed0e19b)
     (property "Reference" "H1" (at 68.58 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3200,7 +3200,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 114.3 38.1 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid eda39347-d699-457d-a39b-14654441075b)
     (property "Reference" "J18" (at 116.84 34.29 0)
       (effects (font (size 1.27 1.27)))
@@ -3231,7 +3231,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 124.46 91.44 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid f47088dc-67b2-46b9-8f14-3b9b1814c6ba)
     (property "Reference" "J18" (at 127 87.63 0)
       (effects (font (size 1.27 1.27)))
@@ -3300,7 +3300,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 201.93 106.68 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid f837f4bd-6761-4f47-b8fe-eb6383ce1767)
     (property "Reference" "TP5" (at 203.327 110.6257 0)
       (effects (font (size 1.27 1.27)) (justify left))

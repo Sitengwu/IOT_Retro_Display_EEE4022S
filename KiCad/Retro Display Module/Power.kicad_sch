@@ -933,7 +933,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 201.93 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 18930e50-859c-4cd7-910c-690a485448f6)
     (property "Reference" "TP7" (at 203.327 81.1443 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1122,7 +1122,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 107.95 101.6 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 4aeda8d1-e26f-4b84-8e22-c15500b500d6)
     (property "Reference" "J18" (at 111.76 104.14 0)
       (effects (font (size 1.27 1.27)))
@@ -1193,7 +1193,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 72.39 87.63 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 5430e384-a09c-4967-8b1f-f838c9dd161c)
     (property "Reference" "J22" (at 66.04 86.36 90)
       (effects (font (size 1.27 1.27)))
@@ -1340,7 +1340,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 147.32 102.87 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 95f6b40c-0403-4bf7-9279-9264babaa69d)
     (property "Reference" "TP5" (at 148.717 106.8157 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1476,7 +1476,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 82.55 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid bbff0784-06e4-478e-8dc1-84715eeb7255)
     (property "Reference" "TP6" (at 83.947 88.7643 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1509,7 +1509,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 172.72 82.55 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid bd19fd9a-d6fd-482c-993a-7d7cd37a1f9d)
     (property "Reference" "J20" (at 175.26 78.74 0)
       (effects (font (size 1.27 1.27)))

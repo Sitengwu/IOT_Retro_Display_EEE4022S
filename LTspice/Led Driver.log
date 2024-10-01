@@ -1,8 +1,9 @@
 Circuit: * C:\Users\Si Teng Wu\OneDrive - University of Cape Town\2024\EEE4022S\IOT_Retro_Display_EEE4022S\LTspice\Led Driver.asc
 
-R9: both pins shorted together -- ignoring.
 Limiting rise time of source v1 to 1e-006
 Limiting fall time of source v1 to 1e-006
+WARNING: Less than two connections to node VOUT.  This node is used by Q1.
+WARNING: Less than two connections to node NC_01.  This node is used by Q1.
 Instance "m:u5:2": Length shorter than recommended for a level 3 MOSFET.
 Instance "m:u4:2": Length shorter than recommended for a level 3 MOSFET.
 Instance "m:u3:2": Length shorter than recommended for a level 3 MOSFET.
@@ -28,20 +29,20 @@ Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
 
-Date: Wed Sep 11 03:14:39 2024
-Total elapsed time: 1.898 seconds.
+Date: Mon Sep 30 14:50:03 2024
+Total elapsed time: 1.496 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 124382
-traniter = 123900
-tranpoints = 61889
-accept = 49255
-rejected = 12634
-matrix size = 39
-fillins = 5
+totiter = 122229
+traniter = 121695
+tranpoints = 60848
+accept = 46828
+rejected = 14020
+matrix size = 42
+fillins = 4
 solver = Normal
-Matrix Compiler1: 3.35 KB object code size  0.7/0.5/[0.2]
-Matrix Compiler2: 3.74 KB object code size  0.4/0.5/[0.2]
+Matrix Compiler1: 3.10 KB object code size  0.6/0.3/[0.2]
+Matrix Compiler2: 3.90 KB object code size  0.4/0.5/[0.3]
 
