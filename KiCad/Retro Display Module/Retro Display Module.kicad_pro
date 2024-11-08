@@ -528,16 +528,12 @@
       ""
     ],
     [
-      "b83b8eb2-0716-4cf7-9ac5-6883d8975061",
-      "Power"
-    ],
-    [
       "5f242e7d-44cc-4d59-bac4-986620e81512",
       "RGB LEDs"
     ],
     [
-      "d555fdcf-ac33-4f51-9933-2ad961069feb",
-      "LED Driver"
+      "b83b8eb2-0716-4cf7-9ac5-6883d8975061",
+      "Power"
     ]
   ],
   "text_variables": {}
