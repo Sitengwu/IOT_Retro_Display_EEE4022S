@@ -55,6 +55,10 @@ volatile uint8_t interrupted=0;
 volatile uint8_t cfgFlag=0;
 volatile uint8_t readDigit=0;
 
+uint8_t red = 0;
+uint8_t green = 0;
+uint8_t blue = 0;
+
 uint8_t rx_buffer[20];
 uint8_t tx_buffer[20];
 
@@ -103,10 +107,10 @@ void WS2812_Send (void)
 		{
 			if (color&(1<<i))
 			{
-				pwmData[indx] = 30;  // 2/3 of 90
+				pwmData[indx] =29;  // ~45% of 64
 			}
 
-			else pwmData[indx] = 10;  // 1/3 of 90
+			else pwmData[indx] = 9;  // ~14% of 64
 
 			indx++;
 		}
@@ -208,7 +212,7 @@ int main(void)
 
   for (int var = 0; var < MAX_LED; ++var)
   {
-	Set_LED(var, 255,255,255);
+	Set_LED(var, 0,0,0);
   }
 
   WS2812_Send();
@@ -225,13 +229,13 @@ int main(void)
   {
 	  if(cfgFlag)
 	  {
-		  toggleLED(address, 0, 0, 0);
+		  toggleLED(address, red, green, blue);
 		  cfgFlag = 0;
 	  }
 
 	  if(readDigit)
 	  {
-		  toggleLED(digit, 0, 0, 0);
+		  toggleLED(digit, red, green, blue);
 		  readDigit=0;
 	  }
 
@@ -486,7 +490,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 			HAL_UART_Receive_IT(&huart2, rx_buffer, 2);
 			return;
 		}
-		if (rx_buffer[0] == 103)
+		else if (rx_buffer[0] == 103)
 		{
 			address = rx_buffer[1];
 			tx_buffer[0] = 103;
@@ -495,10 +499,28 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 			HAL_UART_Transmit_IT(&huart2, tx_buffer, 2);
 			cfgFlag = 1;
 
+			HAL_UART_Receive_IT(&huart2, rx_buffer, 7);
+			return;
+		}
+		else if (rx_buffer[0] == 104)
+		{
+			red = rx_buffer[2];
+			green = rx_buffer[3];
+			blue = rx_buffer[4];
+
+			for (int var = 0; var < 7; ++var)
+			{
+				tx_buffer[var] = rx_buffer[var];
+			}
+
+			HAL_UART_Transmit_IT(&huart2, tx_buffer, 7);
+
+			cfgFlag = 1;
+
 			HAL_UART_Receive_IT(&huart2, rx_buffer, address+1);
 			return;
 		}
-		if (rx_buffer[0] == 104)
+		else if(rx_buffer[0] == 105)
 		{
 			digit = rx_buffer[address];
 
@@ -506,6 +528,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 			{
 				tx_buffer[var] = rx_buffer[var];
 			}
+
 			HAL_Delay(100);
 			HAL_UART_Transmit_IT(&huart2, tx_buffer, address);
 			readDigit = 1;

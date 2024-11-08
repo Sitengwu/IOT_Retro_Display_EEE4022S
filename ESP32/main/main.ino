@@ -183,8 +183,18 @@ void loop() {
         SerialPort.write(txBuffer, 2);
         Serial.printf("Sent 103 and %d\n", dataBuffer[1]);
       } else if (((dataBuffer[0] == 0) && (dataBuffer[1] == 103)) || ((dataBuffer[0] == 103) && (dataBuffer[1] == 0))) {
-        digitReady = true;
         txBuffer[0] = 104;
+        txBuffer[1] = 104;
+        txBuffer[2] = red;
+        txBuffer[3] = blue;
+        txBuffer[4] = green;
+        txBuffer[5] = 104;
+        txBuffer[6] = 104;
+        SerialPort.write(txBuffer, 7);
+        Serial.println("Sent 104");
+      } else if (((dataBuffer[0] == 104) && (dataBuffer[1] == 104)) || ((dataBuffer[0] > -1) && (dataBuffer[1] == 104))) {
+        digitReady = true;
+        txBuffer[0] = 105;
 
         for (int i = 1; i < sizeof(txBuffer); i++) {
           txBuffer[i] = 0;
@@ -198,41 +208,13 @@ void loop() {
         }
 
         SerialPort.write(txBuffer, numDigits + 1);
-        Serial.println("Sent 104 + digits");
+        Serial.println("Sent 105 + digits");
       }
-      // } else if (((dataBuffer[0] == 0) && (dataBuffer[1] == 103)) || ((dataBuffer[0] == 103) && (dataBuffer[1] == 0))) {
-      //   txBuffer[0] = 104;
-      //   txBuffer[1] = 104;
-      //   txBuffer[2] = red;
-      //   txBuffer[3] = blue;
-      //   txBuffer[4] = green;
-      //   txBuffer[5] = 104;
-      //   txBuffer[6] = 104;
-      //   SerialPort.write(txBuffer, 7);
-      //   Serial.println("Sent 104");
-      // } else if (((dataBuffer[0] == 104) && (dataBuffer[1] == 104)) || ((dataBuffer[0] > -1) && (dataBuffer[1] == 104))) {
-      //   digitReady = true;
-      //   txBuffer[0] = 105;
-
-      //   for (int i = 1; i < sizeof(txBuffer); i++) {
-      //     txBuffer[i] = 0;
-      //   }
-      //   int temp = number;
-      //   uint8_t count = 1;
-      //   while (temp > 0) {
-      //     txBuffer[count] = temp % 10;
-      //     temp = temp / 10;
-      //     count++;
-      //   }
-
-      //   SerialPort.write(txBuffer, numDigits + 1);
-      //   Serial.println("Sent 105 + digits");
-      // }
-      // // Do something with the 2-byte data
-      // Serial.print("Received bytes: ");
-      // Serial.print(dataBuffer[0]);
-      // Serial.print(" ");
-      // Serial.println(dataBuffer[1]);
+      // Do something with the 2-byte data
+      Serial.print("Received bytes: ");
+      Serial.print(dataBuffer[0]);
+      Serial.print(" ");
+      Serial.println(dataBuffer[1]);
     }
   }
 }
